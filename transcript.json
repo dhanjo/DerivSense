@@ -1,0 +1,74 @@
+[
+  {
+    "transcript_id": "T1",
+    "language_hint": "English",
+    "topic": "deposit failure",
+    "turns": [
+      { "speaker": "User", "text": "hi my deposit of 200 USD via Skrill was deducted but balance not showing" },
+      { "speaker": "Agent", "text": "Hello! Can you please share the transaction ID?" },
+      { "speaker": "User", "text": "TXN445129" },
+      { "speaker": "Agent", "text": "Thank you. I'll check this for you." },
+      { "speaker": "User", "text": "it's been 4 hours" },
+      { "speaker": "Agent", "text": "I understand. Our payments team typically resolves this within 24 hours." },
+      { "speaker": "User", "text": "thats unacceptable i need to trade now market is moving" },
+      { "speaker": "Agent", "text": "I apologise for the inconvenience. Would you like to deposit through another method in the meantime?" },
+      { "speaker": "User", "text": "so you want me to deposit AGAIN?" },
+      { "speaker": "Agent", "text": "I understand your frustration sir." }
+    ]
+  },
+  {
+    "transcript_id": "T2",
+    "language_hint": "Spanish",
+    "topic": "account verification",
+    "turns": [
+      { "speaker": "Usuario", "text": "Hola, llevo 3 días esperando que verifiquen mis documentos" },
+      { "speaker": "Agente", "text": "Buenos días, ¿me puede dar su número de cuenta?" },
+      { "speaker": "Usuario", "text": "CR9921455" },
+      { "speaker": "Agente", "text": "Veo que sus documentos fueron rechazados por baja resolución" },
+      { "speaker": "Usuario", "text": "nadie me avisó!!!" },
+      { "speaker": "Agente", "text": "Le pido disculpas, debería haber recibido un correo" },
+      { "speaker": "Usuario", "text": "no recibí nada y necesito retirar mi dinero ya" },
+      { "speaker": "Agente", "text": "Por favor reenvíe los documentos en mayor calidad" }
+    ]
+  },
+  {
+    "transcript_id": "T3",
+    "language_hint": "Bahasa Indonesia",
+    "topic": "margin call",
+    "turns": [
+      { "speaker": "Pengguna", "text": "kenapa posisi saya ditutup paksa? saya tidak setuju" },
+      { "speaker": "Agen", "text": "Halo, posisi Anda ditutup karena margin level di bawah 50%" },
+      { "speaker": "Pengguna", "text": "tapi saya rugi 1500 USD karena ini" },
+      { "speaker": "Agen", "text": "Saya mengerti. Sistem kami otomatis menutup posisi untuk melindungi akun Anda" },
+      { "speaker": "Pengguna", "text": "lindungi? saya rugi besar! ini penipuan" },
+      { "speaker": "Agen", "text": "Saya mengerti perasaan Anda. Margin call dijelaskan di syarat dan ketentuan." }
+    ]
+  },
+  {
+    "transcript_id": "T4",
+    "language_hint": "Mandarin",
+    "topic": "KYC dispute",
+    "turns": [
+      { "speaker": "用户", "text": "你们为什么冻结我的账户" },
+      { "speaker": "客服", "text": "您好，账户被冻结因为KYC复核未通过" },
+      { "speaker": "用户", "text": "我已经提交了护照和地址证明" },
+      { "speaker": "客服", "text": "我们需要您再提交一份银行对账单" },
+      { "speaker": "用户", "text": "我已经发了三次了" },
+      { "speaker": "客服", "text": "很抱歉，我没有看到记录" },
+      { "speaker": "用户", "text": "我要投诉" }
+    ]
+  },
+  {
+    "transcript_id": "T5",
+    "language_hint": "Arabic",
+    "topic": "bonus dispute",
+    "turns": [
+      { "speaker": "المستخدم", "text": "أين بونص الإيداع الذي وعدتم به؟" },
+      { "speaker": "الموظف", "text": "أهلاً، البونص يصرف خلال 48 ساعة من الإيداع" },
+      { "speaker": "المستخدم", "text": "مر 5 أيام ولم أستلم شيئاً" },
+      { "speaker": "الموظف", "text": "دعني أتحقق" },
+      { "speaker": "الموظف", "text": "للأسف حسابك لا يستوفي شروط البونص" },
+      { "speaker": "المستخدم", "text": "لماذا لم تخبروني قبل الإيداع؟" }
+    ]
+  }
+]
