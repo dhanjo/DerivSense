@@ -8,7 +8,7 @@
     "intent": "deposit_issue",
     "sentiment_score": -0.5,
     "is_escalation_signal": false,
-    "unmet_information_need": "resolution of deposit issue"
+    "unmet_information_need": "Status of deposit"
   },
   {
     "turn_index": 1,
@@ -17,7 +17,7 @@
     "language_detected": "en",
     "translated_to_english": "Hello! Can you please share the transaction ID?",
     "intent": "information_request",
-    "sentiment_score": 0.5,
+    "sentiment_score": 0.1,
     "is_escalation_signal": false,
     "unmet_information_need": ""
   },
@@ -38,8 +38,8 @@
     "original_text": "Thank you. I'll check this for you.",
     "language_detected": "en",
     "translated_to_english": "Thank you. I'll check this for you.",
-    "intent": "other",
-    "sentiment_score": 0.5,
+    "intent": "information_request",
+    "sentiment_score": 0.2,
     "is_escalation_signal": false,
     "unmet_information_need": ""
   },
@@ -49,10 +49,10 @@
     "original_text": "it's been 4 hours",
     "language_detected": "en",
     "translated_to_english": "it's been 4 hours",
-    "intent": "complaint",
-    "sentiment_score": -0.6,
-    "is_escalation_signal": true,
-    "unmet_information_need": "faster resolution"
+    "intent": "other",
+    "sentiment_score": -0.3,
+    "is_escalation_signal": false,
+    "unmet_information_need": "Quick resolution for the deposit issue"
   },
   {
     "turn_index": 5,
@@ -61,9 +61,9 @@
     "language_detected": "en",
     "translated_to_english": "I understand. Our payments team typically resolves this within 24 hours.",
     "intent": "information_request",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.1,
     "is_escalation_signal": false,
-    "unmet_information_need": "faster resolution"
+    "unmet_information_need": ""
   },
   {
     "turn_index": 6,
@@ -72,9 +72,9 @@
     "language_detected": "en",
     "translated_to_english": "thats unacceptable i need to trade now market is moving",
     "intent": "complaint",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "is_escalation_signal": true,
-    "unmet_information_need": "immediate access to funds"
+    "unmet_information_need": "Immediate action on deposit"
   },
   {
     "turn_index": 7,
@@ -82,10 +82,10 @@
     "original_text": "I apologise for the inconvenience. Would you like to deposit through another method in the meantime?",
     "language_detected": "en",
     "translated_to_english": "I apologise for the inconvenience. Would you like to deposit through another method in the meantime?",
-    "intent": "other",
-    "sentiment_score": 0.3,
+    "intent": "information_request",
+    "sentiment_score": 0.0,
     "is_escalation_signal": false,
-    "unmet_information_need": "alternative solution to access funds"
+    "unmet_information_need": ""
   },
   {
     "turn_index": 8,
@@ -94,9 +94,9 @@
     "language_detected": "en",
     "translated_to_english": "so you want me to deposit AGAIN?",
     "intent": "complaint",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.6,
     "is_escalation_signal": true,
-    "unmet_information_need": "clarification on deposit process"
+    "unmet_information_need": "Clarification on alternative solutions"
   },
   {
     "turn_index": 9,
@@ -104,9 +104,9 @@
     "original_text": "I understand your frustration sir.",
     "language_detected": "en",
     "translated_to_english": "I understand your frustration sir.",
-    "intent": "complaint",
-    "sentiment_score": 0.0,
-    "is_escalation_signal": true,
+    "intent": "other",
+    "sentiment_score": 0.1,
+    "is_escalation_signal": false,
     "unmet_information_need": ""
   }
 ]

@@ -2,25 +2,25 @@
   {
     "transcript_id": "T2",
     "detected_language": "es",
-    "reply_original_language": "Entiendo su frustración y lamento la inconveniencia. Para poder avanzar más rápido, por favor, reenvíe sus documentos en una calidad más alta. Una vez los recibamos, haremos todo lo posible para acelerar el proceso de verificación. Gracias por su comprensión.",
-    "reply_english": "I understand your frustration, and I apologize for the inconvenience. To move forward more quickly, please resend your documents in higher quality. Once we receive them, we will do our best to expedite the verification process. Thank you for your understanding."
+    "reply_original_language": "Lamento mucho los inconvenientes causados. Por favor, reenvíe sus documentos con mayor calidad para que podamos proceder con la verificación. Gracias por su paciencia.",
+    "reply_english": "I sincerely apologize for the inconvenience caused. Please resubmit your documents in higher quality so that we can proceed with the verification. Thank you for your patience."
   },
   {
     "transcript_id": "T3",
     "detected_language": "id",
-    "reply_original_language": "Kami memahami ketidakpuasan Anda terkait penutupan posisi paksa. Margin call adalah kebijakan yang dirancang untuk melindungi akun Anda dari kerugian lebih lanjut. Anda dapat membaca lebih lanjut mengenai kebijakan margin dan proses banding di situs kami. Jika ada pertanyaan lebih lanjut, silakan hubungi tim dukungan kami.",
-    "reply_english": "We understand your dissatisfaction regarding the forced position closure. The margin call policy is designed to protect your account from further losses. You can read more about the margin policies and the appeal process on our website. If you have any further questions, please feel free to contact our support team."
+    "reply_original_language": "Kami memahami bahwa situasi ini sangat tidak menyenangkan dan Anda mengalami kerugian. Kami akan meninjau keadaan panggilan margin Anda dan memberikan klarifikasi lebih lanjut. Terima kasih atas kesabaran Anda.",
+    "reply_english": "We understand that this situation is very upsetting and you have incurred a loss. We will review your margin call circumstances and provide further clarification. Thank you for your patience."
   },
   {
     "transcript_id": "T4",
     "detected_language": "zh",
-    "reply_original_language": "非常感谢您的耐心等待。我们会将您的投诉转至合规部门，以帮助您解决账户被冻结的问题。请确保您再提交一份银行对账单，我们会尽快处理您的文档。如果您有任何其他问题，请随时告知我们。",
-    "reply_english": "Thank you for your patience. We will escalate your complaint to the compliance department to help resolve the issue with your frozen account. Please ensure you submit another bank statement, and we will process your documents as soon as possible. If you have any further questions, please feel free to let us know."
+    "reply_original_language": "感谢您的耐心，我们将调查缺少的KYC文件并进行升级处理。请您稍等，我们会尽快与您联系。感谢您对我们的理解与支持。",
+    "reply_english": "Thank you for your patience. We will investigate the missing KYC documents and escalate this matter for resolution. Please hold on, and we will get back to you as soon as possible. We appreciate your understanding and support."
   },
   {
     "transcript_id": "T5",
     "detected_language": "ar",
-    "reply_original_language": "أعتذر عن أي إزعاج قد يكون تسبب به ذلك، وسنقوم بتحسين طريقة تواصلنا بخصوص شروط الأهلية للبونص في المستقبل. إذا كان لديك أي استفسارات أخرى أو تحتاج إلى مساعدة إضافية، فلا تتردد في الاتصال بنا.",
-    "reply_english": "I apologize for any inconvenience this may have caused, and we will work on improving our communication regarding bonus eligibility criteria in the future. If you have any further questions or need additional assistance, please do not hesitate to reach out to us."
+    "reply_original_language": "نعتذر عن الإرباك الذي حصل. يبدو أن حسابك لا يستوفي شروط البونص، وسنعمل على تحسين التواصل في المستقبل. إذا كان لديك أي استفسارات أخرى فلا تتردد في طرحها.",
+    "reply_english": "We apologize for the confusion. It appears your account does not meet the bonus eligibility criteria, and we will work on improving our communication in the future. If you have any further questions, please feel free to ask."
   }
 ]

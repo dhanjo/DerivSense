@@ -1,11 +1,11 @@
 [
   {
     "transcript_id": "T1",
-    "pivot_turn_index": 3,
-    "pivot_agent_quote": "Thank you. I'll check this for you.",
-    "pre_pivot_user_sentiment": -0.25,
-    "post_pivot_user_sentiment": -0.7,
-    "calculation": "Agent turn at index 3. Pre-avg user sentiment: -0.250 (over 2 turn(s)). Post-avg user sentiment: -0.700 (over 3 turn(s)). Delta: -0.450. Pivot criteria met: delta <= -0.25 is True, post_avg <= -0.60 is True."
+    "pivot_turn_index": 5,
+    "pivot_agent_quote": "I understand. Our payments team typically resolves this within 24 hours.",
+    "pre_pivot_user_sentiment": -0.2667,
+    "post_pivot_user_sentiment": -0.65,
+    "calculation": "Agent turn at index 5 selected as strongest pivot (most negative delta across 3 candidate(s)). Pre-avg user sentiment: -0.267 (over 3 turn(s)). Post-avg user sentiment: -0.650 (over 2 turn(s)). Delta: -0.383. Pivot criteria met: delta <= -0.25 is True, post_avg <= -0.60 is True."
   },
   {
     "transcript_id": "T2",
@@ -13,30 +13,30 @@
     "pivot_agent_quote": "Veo que sus documentos fueron rechazados por baja resolución",
     "pre_pivot_user_sentiment": -0.25,
     "post_pivot_user_sentiment": -0.85,
-    "calculation": "Agent turn at index 3. Pre-avg user sentiment: -0.250 (over 2 turn(s)). Post-avg user sentiment: -0.850 (over 2 turn(s)). Delta: -0.600. Pivot criteria met: delta <= -0.25 is True, post_avg <= -0.60 is True."
+    "calculation": "Agent turn at index 3 selected as strongest pivot (most negative delta across 2 candidate(s)). Pre-avg user sentiment: -0.250 (over 2 turn(s)). Post-avg user sentiment: -0.850 (over 2 turn(s)). Delta: -0.600. Pivot criteria met: delta <= -0.25 is True, post_avg <= -0.60 is True."
   },
   {
     "transcript_id": "T3",
-    "pivot_turn_index": 1,
-    "pivot_agent_quote": "Halo, posisi Anda ditutup karena margin level di bawah 50%",
-    "pre_pivot_user_sentiment": -0.7,
-    "post_pivot_user_sentiment": -0.7,
-    "calculation": "Agent turn at index 1. Pre-avg user sentiment: -0.700 (over 1 turn(s)). Post-avg user sentiment: -0.700 (over 2 turn(s)). Delta: 0.000. Pivot criteria met: delta <= -0.25 is False, post_avg <= -0.60 is True."
+    "pivot_turn_index": 3,
+    "pivot_agent_quote": "Saya mengerti. Sistem kami otomatis menutup posisi untuk melindungi akun Anda",
+    "pre_pivot_user_sentiment": -0.55,
+    "post_pivot_user_sentiment": -0.8,
+    "calculation": "Agent turn at index 3 selected as strongest pivot (most negative delta across 2 candidate(s)). Pre-avg user sentiment: -0.550 (over 2 turn(s)). Post-avg user sentiment: -0.800 (over 1 turn(s)). Delta: -0.250. Pivot criteria met: delta <= -0.25 is True, post_avg <= -0.60 is True."
   },
   {
     "transcript_id": "T4",
-    "pivot_turn_index": 3,
-    "pivot_agent_quote": "我们需要您再提交一份银行对账单",
-    "pre_pivot_user_sentiment": -0.25,
-    "post_pivot_user_sentiment": -0.75,
-    "calculation": "Agent turn at index 3. Pre-avg user sentiment: -0.250 (over 2 turn(s)). Post-avg user sentiment: -0.750 (over 2 turn(s)). Delta: -0.500. Pivot criteria met: delta <= -0.25 is True, post_avg <= -0.60 is True."
+    "pivot_turn_index": 5,
+    "pivot_agent_quote": "很抱歉，我没有看到记录",
+    "pre_pivot_user_sentiment": -0.3333,
+    "post_pivot_user_sentiment": -1.0,
+    "calculation": "Agent turn at index 5 selected as strongest pivot (most negative delta across 2 candidate(s)). Pre-avg user sentiment: -0.333 (over 3 turn(s)). Post-avg user sentiment: -1.000 (over 1 turn(s)). Delta: -0.667. Pivot criteria met: delta <= -0.25 is True, post_avg <= -0.60 is True."
   },
   {
     "transcript_id": "T5",
     "pivot_turn_index": 1,
     "pivot_agent_quote": "أهلاً، البونص يصرف خلال 48 ساعة من الإيداع",
     "pre_pivot_user_sentiment": -0.5,
-    "post_pivot_user_sentiment": -0.75,
-    "calculation": "Agent turn at index 1. Pre-avg user sentiment: -0.500 (over 1 turn(s)). Post-avg user sentiment: -0.750 (over 2 turn(s)). Delta: -0.250. Pivot criteria met: delta <= -0.25 is True, post_avg <= -0.60 is True."
+    "post_pivot_user_sentiment": -0.8,
+    "calculation": "Agent turn at index 1 selected as strongest pivot (most negative delta across 3 candidate(s)). Pre-avg user sentiment: -0.500 (over 1 turn(s)). Post-avg user sentiment: -0.800 (over 2 turn(s)). Delta: -0.300. Pivot criteria met: delta <= -0.25 is True, post_avg <= -0.60 is True."
   }
 ]

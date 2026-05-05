@@ -1,38 +1,38 @@
 [
   {
-    "pattern": "Customers express frustration over delays in processing deposits.",
+    "pattern": "Customers express frustration due to delays in processing transactions or verifications.",
     "evidence_transcript_ids": [
       "T1",
+      "T2"
+    ],
+    "supporting_turns": [
+      "T1:6",
+      "T2:6"
+    ],
+    "product_or_process_recommendation": "Introduce a dedicated real-time tracking feature for transactions and verifications with regular updates to keep customers informed."
+  },
+  {
+    "pattern": "Customers feel inadequately informed about the status of their requests or issues.",
+    "evidence_transcript_ids": [
+      "T2",
       "T5"
     ],
     "supporting_turns": [
-      "T1:4",
-      "T5:2"
-    ],
-    "product_or_process_recommendation": "Improve deposit processing times and provide regular updates to customers during the waiting period."
-  },
-  {
-    "pattern": "Customers express dissatisfaction when they are not informed of document rejection.",
-    "evidence_transcript_ids": [
-      "T2",
-      "T4"
-    ],
-    "supporting_turns": [
       "T2:4",
-      "T4:4"
+      "T5:5"
     ],
-    "product_or_process_recommendation": "Implement a notification system to inform customers promptly when documents are rejected or require resubmission."
+    "product_or_process_recommendation": "Implement a proactive communication strategy to notify customers of any issues with their submissions or eligibility before they inquire."
   },
   {
-    "pattern": "Customers experience confusion or dissatisfaction regarding account access issues.",
+    "pattern": "Agents fail to express sufficient empathy regarding customers' financial losses or urgent needs.",
     "evidence_transcript_ids": [
       "T3",
       "T4"
     ],
     "supporting_turns": [
       "T3:4",
-      "T4:0"
+      "T4:6"
     ],
-    "product_or_process_recommendation": "Enhance clarity in communication regarding account access policies and provide proactive support to affected customers."
+    "product_or_process_recommendation": "Provide empathy training for agents to improve engagement with customers, particularly in scenarios involving financial distress or urgent concerns."
   }
 ]

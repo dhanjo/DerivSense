@@ -4,20 +4,20 @@
     "speaker": "Pengguna",
     "original_text": "kenapa posisi saya ditutup paksa? saya tidak setuju",
     "language_detected": "id",
-    "translated_to_english": "why was my position forcefully closed? I do not agree",
+    "translated_to_english": "why was my position closed forcefully? I do not agree",
     "intent": "margin_dispute",
-    "sentiment_score": -0.7,
+    "sentiment_score": -0.5,
     "is_escalation_signal": true,
-    "unmet_information_need": "explanation for forced position closure"
+    "unmet_information_need": "explanation for forced closure"
   },
   {
     "turn_index": 1,
     "speaker": "Agen",
     "original_text": "Halo, posisi Anda ditutup karena margin level di bawah 50%",
     "language_detected": "id",
-    "translated_to_english": "Hello, your position was closed because the margin level is below 50%",
+    "translated_to_english": "Hello, your position was closed because the margin level was below 50%",
     "intent": "information_request",
-    "sentiment_score": 0.2,
+    "sentiment_score": 0.0,
     "is_escalation_signal": false,
     "unmet_information_need": ""
   },
@@ -30,7 +30,7 @@
     "intent": "margin_dispute",
     "sentiment_score": -0.6,
     "is_escalation_signal": true,
-    "unmet_information_need": "compensation for the loss"
+    "unmet_information_need": "compensation or further explanation on losses"
   },
   {
     "turn_index": 3,
@@ -39,7 +39,7 @@
     "language_detected": "id",
     "translated_to_english": "I understand. Our system automatically closes positions to protect your account",
     "intent": "information_request",
-    "sentiment_score": 0.3,
+    "sentiment_score": 0.0,
     "is_escalation_signal": false,
     "unmet_information_need": ""
   },
@@ -48,21 +48,21 @@
     "speaker": "Pengguna",
     "original_text": "lindungi? saya rugi besar! ini penipuan",
     "language_detected": "id",
-    "translated_to_english": "protect? I have lost a lot! this is a scam",
+    "translated_to_english": "protect? I lost a lot! this is a fraud",
     "intent": "complaint",
     "sentiment_score": -0.8,
     "is_escalation_signal": true,
-    "unmet_information_need": "justification for loss and assurance"
+    "unmet_information_need": "resolution for perceived fraud"
   },
   {
     "turn_index": 5,
     "speaker": "Agen",
     "original_text": "Saya mengerti perasaan Anda. Margin call dijelaskan di syarat dan ketentuan.",
     "language_detected": "id",
-    "translated_to_english": "I understand your feelings. Margin call is explained in the terms and conditions.",
+    "translated_to_english": "I understand your feelings. The margin call is explained in the terms and conditions.",
     "intent": "information_request",
-    "sentiment_score": 0.1,
+    "sentiment_score": 0.0,
     "is_escalation_signal": false,
-    "unmet_information_need": "details of terms and conditions"
+    "unmet_information_need": "clearer explanation or support regarding terms"
   }
 ]

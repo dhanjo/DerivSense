@@ -4,7 +4,7 @@
     "speaker": "المستخدم",
     "original_text": "أين بونص الإيداع الذي وعدتم به؟",
     "language_detected": "ar",
-    "translated_to_english": "Where is the deposit bonus you promised?",
+    "translated_to_english": "Where is the deposit bonus that you promised?",
     "intent": "bonus_dispute",
     "sentiment_score": -0.5,
     "is_escalation_signal": false,
@@ -15,7 +15,7 @@
     "speaker": "الموظف",
     "original_text": "أهلاً، البونص يصرف خلال 48 ساعة من الإيداع",
     "language_detected": "ar",
-    "translated_to_english": "Hello, the bonus is granted within 48 hours of the deposit.",
+    "translated_to_english": "Hello, the bonus is issued within 48 hours of the deposit.",
     "intent": "information_request",
     "sentiment_score": 0.5,
     "is_escalation_signal": false,
@@ -26,10 +26,10 @@
     "speaker": "المستخدم",
     "original_text": "مر 5 أيام ولم أستلم شيئاً",
     "language_detected": "ar",
-    "translated_to_english": "It's been 5 days and I haven't received anything.",
+    "translated_to_english": "5 days have passed and I haven't received anything.",
     "intent": "bonus_dispute",
     "sentiment_score": -0.7,
-    "is_escalation_signal": false,
+    "is_escalation_signal": true,
     "unmet_information_need": "update on bonus status"
   },
   {
@@ -38,7 +38,7 @@
     "original_text": "دعني أتحقق",
     "language_detected": "ar",
     "translated_to_english": "Let me check.",
-    "intent": "information_request",
+    "intent": "other",
     "sentiment_score": 0.0,
     "is_escalation_signal": false,
     "unmet_information_need": ""
@@ -48,21 +48,21 @@
     "speaker": "الموظف",
     "original_text": "للأسف حسابك لا يستوفي شروط البونص",
     "language_detected": "ar",
-    "translated_to_english": "Unfortunately, your account does not meet the bonus conditions.",
+    "translated_to_english": "Unfortunately, your account does not meet the bonus requirements.",
     "intent": "bonus_dispute",
-    "sentiment_score": -1.0,
+    "sentiment_score": -0.8,
     "is_escalation_signal": true,
-    "unmet_information_need": "clarification on bonus conditions"
+    "unmet_information_need": "clarification on bonus requirements"
   },
   {
     "turn_index": 5,
     "speaker": "المستخدم",
     "original_text": "لماذا لم تخبروني قبل الإيداع؟",
     "language_detected": "ar",
-    "translated_to_english": "Why didn't you tell me before the deposit?",
+    "translated_to_english": "Why didn't you inform me before the deposit?",
     "intent": "complaint",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.9,
     "is_escalation_signal": true,
-    "unmet_information_need": ""
+    "unmet_information_need": "explanation for lack of prior information"
   }
 ]

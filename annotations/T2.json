@@ -8,7 +8,7 @@
     "intent": "identity_verification",
     "sentiment_score": -0.5,
     "is_escalation_signal": false,
-    "unmet_information_need": "verification status"
+    "unmet_information_need": "Status of document verification"
   },
   {
     "turn_index": 1,
@@ -17,7 +17,7 @@
     "language_detected": "es",
     "translated_to_english": "Good morning, can you give me your account number?",
     "intent": "information_request",
-    "sentiment_score": 0.5,
+    "sentiment_score": 0.1,
     "is_escalation_signal": false,
     "unmet_information_need": ""
   },
@@ -39,9 +39,9 @@
     "language_detected": "es",
     "translated_to_english": "I see that your documents were rejected due to low resolution",
     "intent": "identity_verification",
-    "sentiment_score": -0.5,
+    "sentiment_score": -0.3,
     "is_escalation_signal": false,
-    "unmet_information_need": "reason for rejection explanation"
+    "unmet_information_need": "Explanation for document rejection"
   },
   {
     "turn_index": 4,
@@ -52,7 +52,7 @@
     "intent": "complaint",
     "sentiment_score": -0.8,
     "is_escalation_signal": true,
-    "unmet_information_need": ""
+    "unmet_information_need": "Notification about document status"
   },
   {
     "turn_index": 5,
@@ -61,7 +61,7 @@
     "language_detected": "es",
     "translated_to_english": "I apologize, you should have received an email",
     "intent": "complaint",
-    "sentiment_score": 0.0,
+    "sentiment_score": -0.2,
     "is_escalation_signal": false,
     "unmet_information_need": ""
   },
@@ -70,11 +70,11 @@
     "speaker": "Usuario",
     "original_text": "no recibí nada y necesito retirar mi dinero ya",
     "language_detected": "es",
-    "translated_to_english": "I didn't receive anything and I need to withdraw my money now",
+    "translated_to_english": "I didn’t receive anything and I need to withdraw my money now",
     "intent": "withdrawal_issue",
     "sentiment_score": -0.9,
     "is_escalation_signal": true,
-    "unmet_information_need": "status of withdrawal request"
+    "unmet_information_need": "Withdrawal processed"
   },
   {
     "turn_index": 7,
@@ -82,8 +82,8 @@
     "original_text": "Por favor reenvíe los documentos en mayor calidad",
     "language_detected": "es",
     "translated_to_english": "Please resend the documents in higher quality",
-    "intent": "identity_verification",
-    "sentiment_score": 0.5,
+    "intent": "information_request",
+    "sentiment_score": 0.0,
     "is_escalation_signal": false,
     "unmet_information_need": ""
   }

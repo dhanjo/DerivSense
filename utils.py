@@ -117,6 +117,7 @@ def compute_pivot(transcript_id: str, annotations: list[dict]) -> dict:
     if not agent_turns:
         return {**null_record, "calculation": "No pivot detected because there are no agent turns."}
 
+    candidates = []
     for agent_turn in agent_turns:
         t = agent_turn["turn_index"]
         prior_user = [u for u in user_turns if u["turn_index"] < t]
@@ -137,29 +138,46 @@ def compute_pivot(transcript_id: str, annotations: list[dict]) -> dict:
         print(f"  Agent turn {t}: pre_avg={pre_avg:.3f}, post_avg={post_avg:.3f}, delta={delta:.3f}, pivot={qualifies}")
 
         if qualifies:
-            calc = (
-                f"Agent turn at index {t}. "
-                f"Pre-avg user sentiment: {pre_avg:.3f} (over {len(prior_user)} turn(s)). "
-                f"Post-avg user sentiment: {post_avg:.3f} (over {len(subsequent_user)} turn(s)). "
-                f"Delta: {delta:.3f}. "
-                f"Pivot criteria met: delta <= -0.25 is {delta <= -0.25}, "
-                f"post_avg <= -0.60 is {post_avg <= -0.60}."
-            )
-            return {
-                "transcript_id": transcript_id,
-                "pivot_turn_index": t,
-                "pivot_agent_quote": agent_turn["original_text"],
-                "pre_pivot_user_sentiment": round(pre_avg, 4),
-                "post_pivot_user_sentiment": round(post_avg, 4),
-                "calculation": calc,
-            }
+            candidates.append({
+                "agent_turn": agent_turn,
+                "t": t,
+                "pre_avg": pre_avg,
+                "post_avg": post_avg,
+                "delta": delta,
+                "prior_count": len(prior_user),
+                "subsequent_count": len(subsequent_user),
+            })
 
+    if not candidates:
+        return {
+            **null_record,
+            "calculation": (
+                "No pivot detected because no agent turn produced a user sentiment "
+                "delta <= -0.25 or post-pivot average <= -0.60."
+            ),
+        }
+
+    # Select the candidate with the most negative delta (strongest sentiment drop).
+    best = min(candidates, key=lambda c: c["delta"])
+    t = best["t"]
+    pre_avg = best["pre_avg"]
+    post_avg = best["post_avg"]
+    delta = best["delta"]
+    calc = (
+        f"Agent turn at index {t} selected as strongest pivot (most negative delta across {len(candidates)} candidate(s)). "
+        f"Pre-avg user sentiment: {pre_avg:.3f} (over {best['prior_count']} turn(s)). "
+        f"Post-avg user sentiment: {post_avg:.3f} (over {best['subsequent_count']} turn(s)). "
+        f"Delta: {delta:.3f}. "
+        f"Pivot criteria met: delta <= -0.25 is {delta <= -0.25}, "
+        f"post_avg <= -0.60 is {post_avg <= -0.60}."
+    )
     return {
-        **null_record,
-        "calculation": (
-            "No pivot detected because no agent turn produced a user sentiment "
-            "delta <= -0.25 or post-pivot average <= -0.60."
-        ),
+        "transcript_id": transcript_id,
+        "pivot_turn_index": t,
+        "pivot_agent_quote": best["agent_turn"]["original_text"],
+        "pre_pivot_user_sentiment": round(pre_avg, 4),
+        "post_pivot_user_sentiment": round(post_avg, 4),
+        "calculation": calc,
     }
 
 

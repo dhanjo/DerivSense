@@ -1,35 +1,34 @@
 [
   {
     "transcript_id": "T1",
-    "root_cause_of_dissatisfaction": "Deposit not reflected despite deduction",
+    "root_cause_of_dissatisfaction": "Deposit not reflected in balance",
     "recommended_route": "payments",
     "priority": "P1",
-    "expected_resolution_path": "Payments team to investigate the transaction and ensure the deposit is credited to the user's account.",
+    "expected_resolution_path": "Escalate to payments team for urgent resolution of deposit issue.",
     "evidence_turns": [
       0,
-      4,
-      6,
-      8
+      5,
+      6
     ]
   },
   {
     "transcript_id": "T2",
-    "root_cause_of_dissatisfaction": "Document verification failure",
+    "root_cause_of_dissatisfaction": "Verification documents rejected without notification",
     "recommended_route": "compliance",
     "priority": "P2",
-    "expected_resolution_path": "User to resend higher quality documents for verification and expedite the process.",
+    "expected_resolution_path": "Request user to resubmit higher quality documents for verification.",
     "evidence_turns": [
       0,
-      4,
+      3,
       6
     ]
   },
   {
     "transcript_id": "T3",
-    "root_cause_of_dissatisfaction": "Forced position closure due to margin call",
+    "root_cause_of_dissatisfaction": "Forced closure of trading position",
     "recommended_route": "risk",
     "priority": "P2",
-    "expected_resolution_path": "Clarification on margin call policies and potential appeal process for the user.",
+    "expected_resolution_path": "Review margin call circumstances and provide clarification to the user.",
     "evidence_turns": [
       0,
       2,
@@ -40,8 +39,8 @@
     "transcript_id": "T4",
     "root_cause_of_dissatisfaction": "Account frozen due to KYC issues",
     "recommended_route": "compliance",
-    "priority": "P1",
-    "expected_resolution_path": "Find a resolution for the user's document submissions to unfreeze their account.",
+    "priority": "P3",
+    "expected_resolution_path": "Investigate missing KYC documents and escalate for resolution.",
     "evidence_turns": [
       0,
       4,
@@ -52,12 +51,11 @@
     "transcript_id": "T5",
     "root_cause_of_dissatisfaction": "Bonus not received as promised",
     "recommended_route": "retention",
-    "priority": "P3",
-    "expected_resolution_path": "Confirm eligibility for the bonus and communicate conditions better to prevent future dissatisfaction.",
+    "priority": "P2",
+    "expected_resolution_path": "Clarify bonus eligibility and communicate with the user.",
     "evidence_turns": [
       0,
       2,
-      4,
       5
     ]
   }
