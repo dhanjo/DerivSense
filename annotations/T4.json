@@ -1,0 +1,79 @@
+[
+  {
+    "turn_index": 0,
+    "speaker": "用户",
+    "original_text": "你们为什么冻结我的账户",
+    "language_detected": "zh",
+    "translated_to_english": "Why did you freeze my account?",
+    "intent": "account_access",
+    "sentiment_score": -0.5,
+    "is_escalation_signal": true,
+    "unmet_information_need": "reason for account freeze"
+  },
+  {
+    "turn_index": 1,
+    "speaker": "客服",
+    "original_text": "您好，账户被冻结因为KYC复核未通过",
+    "language_detected": "zh",
+    "translated_to_english": "Hello, the account is frozen because the KYC review was not passed.",
+    "intent": "kyc_issue",
+    "sentiment_score": 0.0,
+    "is_escalation_signal": false,
+    "unmet_information_need": ""
+  },
+  {
+    "turn_index": 2,
+    "speaker": "用户",
+    "original_text": "我已经提交了护照和地址证明",
+    "language_detected": "zh",
+    "translated_to_english": "I have already submitted my passport and proof of address.",
+    "intent": "identity_verification",
+    "sentiment_score": 0.0,
+    "is_escalation_signal": false,
+    "unmet_information_need": ""
+  },
+  {
+    "turn_index": 3,
+    "speaker": "客服",
+    "original_text": "我们需要您再提交一份银行对账单",
+    "language_detected": "zh",
+    "translated_to_english": "We need you to submit a bank statement again.",
+    "intent": "information_request",
+    "sentiment_score": 0.0,
+    "is_escalation_signal": false,
+    "unmet_information_need": "specific documentation needed"
+  },
+  {
+    "turn_index": 4,
+    "speaker": "用户",
+    "original_text": "我已经发了三次了",
+    "language_detected": "zh",
+    "translated_to_english": "I have already sent it three times.",
+    "intent": "complaint",
+    "sentiment_score": -0.5,
+    "is_escalation_signal": true,
+    "unmet_information_need": " acknowledgment of previous submissions"
+  },
+  {
+    "turn_index": 5,
+    "speaker": "客服",
+    "original_text": "很抱歉，我没有看到记录",
+    "language_detected": "zh",
+    "translated_to_english": "I'm sorry, I haven't seen the records.",
+    "intent": "technical_issue",
+    "sentiment_score": -0.2,
+    "is_escalation_signal": false,
+    "unmet_information_need": ""
+  },
+  {
+    "turn_index": 6,
+    "speaker": "用户",
+    "original_text": "我要投诉",
+    "language_detected": "zh",
+    "translated_to_english": "I want to complain.",
+    "intent": "escalation_request",
+    "sentiment_score": -1.0,
+    "is_escalation_signal": true,
+    "unmet_information_need": "resolution to the issue"
+  }
+]

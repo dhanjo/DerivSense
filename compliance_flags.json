@@ -1,0 +1,66 @@
+[
+  {
+    "transcript_id": "T2",
+    "turn_index": 6,
+    "trigger_phrase": "retirar",
+    "language": "es",
+    "recommended_escalation": "compliance",
+    "reason": "Trigger phrase 'retirar' detected in turn 6 of transcript T2."
+  },
+  {
+    "transcript_id": "T3",
+    "turn_index": 0,
+    "trigger_phrase": "paksa",
+    "language": "id",
+    "recommended_escalation": "risk",
+    "reason": "Trigger phrase 'paksa' detected in turn 0 of transcript T3."
+  },
+  {
+    "transcript_id": "T3",
+    "turn_index": 2,
+    "trigger_phrase": "rugi",
+    "language": "id",
+    "recommended_escalation": "risk",
+    "reason": "Trigger phrase 'rugi' detected in turn 2 of transcript T3."
+  },
+  {
+    "transcript_id": "T3",
+    "turn_index": 4,
+    "trigger_phrase": "penipuan",
+    "language": "id",
+    "recommended_escalation": "legal",
+    "reason": "Trigger phrase 'penipuan' detected in turn 4 of transcript T3."
+  },
+  {
+    "transcript_id": "T3",
+    "turn_index": 4,
+    "trigger_phrase": "rugi",
+    "language": "id",
+    "recommended_escalation": "risk",
+    "reason": "Trigger phrase 'rugi' detected in turn 4 of transcript T3."
+  },
+  {
+    "transcript_id": "T4",
+    "turn_index": 0,
+    "trigger_phrase": "冻结",
+    "language": "zh",
+    "recommended_escalation": "risk",
+    "reason": "Trigger phrase '冻结' detected in turn 0 of transcript T4."
+  },
+  {
+    "transcript_id": "T4",
+    "turn_index": 1,
+    "trigger_phrase": "冻结",
+    "language": "zh",
+    "recommended_escalation": "risk",
+    "reason": "Trigger phrase '冻结' detected in turn 1 of transcript T4."
+  },
+  {
+    "transcript_id": "T4",
+    "turn_index": 6,
+    "trigger_phrase": "投诉",
+    "language": "zh",
+    "recommended_escalation": "compliance",
+    "reason": "Trigger phrase '投诉' detected in turn 6 of transcript T4."
+  }
+]

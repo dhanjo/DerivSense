@@ -1,0 +1,112 @@
+[
+  {
+    "turn_index": 0,
+    "speaker": "User",
+    "original_text": "hi my deposit of 200 USD via Skrill was deducted but balance not showing",
+    "language_detected": "en",
+    "translated_to_english": "hi my deposit of 200 USD via Skrill was deducted but balance not showing",
+    "intent": "deposit_issue",
+    "sentiment_score": -0.5,
+    "is_escalation_signal": false,
+    "unmet_information_need": "resolution of deposit issue"
+  },
+  {
+    "turn_index": 1,
+    "speaker": "Agent",
+    "original_text": "Hello! Can you please share the transaction ID?",
+    "language_detected": "en",
+    "translated_to_english": "Hello! Can you please share the transaction ID?",
+    "intent": "information_request",
+    "sentiment_score": 0.5,
+    "is_escalation_signal": false,
+    "unmet_information_need": ""
+  },
+  {
+    "turn_index": 2,
+    "speaker": "User",
+    "original_text": "TXN445129",
+    "language_detected": "en",
+    "translated_to_english": "TXN445129",
+    "intent": "information_request",
+    "sentiment_score": 0.0,
+    "is_escalation_signal": false,
+    "unmet_information_need": ""
+  },
+  {
+    "turn_index": 3,
+    "speaker": "Agent",
+    "original_text": "Thank you. I'll check this for you.",
+    "language_detected": "en",
+    "translated_to_english": "Thank you. I'll check this for you.",
+    "intent": "other",
+    "sentiment_score": 0.5,
+    "is_escalation_signal": false,
+    "unmet_information_need": ""
+  },
+  {
+    "turn_index": 4,
+    "speaker": "User",
+    "original_text": "it's been 4 hours",
+    "language_detected": "en",
+    "translated_to_english": "it's been 4 hours",
+    "intent": "complaint",
+    "sentiment_score": -0.6,
+    "is_escalation_signal": true,
+    "unmet_information_need": "faster resolution"
+  },
+  {
+    "turn_index": 5,
+    "speaker": "Agent",
+    "original_text": "I understand. Our payments team typically resolves this within 24 hours.",
+    "language_detected": "en",
+    "translated_to_english": "I understand. Our payments team typically resolves this within 24 hours.",
+    "intent": "information_request",
+    "sentiment_score": 0.0,
+    "is_escalation_signal": false,
+    "unmet_information_need": "faster resolution"
+  },
+  {
+    "turn_index": 6,
+    "speaker": "User",
+    "original_text": "thats unacceptable i need to trade now market is moving",
+    "language_detected": "en",
+    "translated_to_english": "thats unacceptable i need to trade now market is moving",
+    "intent": "complaint",
+    "sentiment_score": -0.8,
+    "is_escalation_signal": true,
+    "unmet_information_need": "immediate access to funds"
+  },
+  {
+    "turn_index": 7,
+    "speaker": "Agent",
+    "original_text": "I apologise for the inconvenience. Would you like to deposit through another method in the meantime?",
+    "language_detected": "en",
+    "translated_to_english": "I apologise for the inconvenience. Would you like to deposit through another method in the meantime?",
+    "intent": "other",
+    "sentiment_score": 0.3,
+    "is_escalation_signal": false,
+    "unmet_information_need": "alternative solution to access funds"
+  },
+  {
+    "turn_index": 8,
+    "speaker": "User",
+    "original_text": "so you want me to deposit AGAIN?",
+    "language_detected": "en",
+    "translated_to_english": "so you want me to deposit AGAIN?",
+    "intent": "complaint",
+    "sentiment_score": -0.7,
+    "is_escalation_signal": true,
+    "unmet_information_need": "clarification on deposit process"
+  },
+  {
+    "turn_index": 9,
+    "speaker": "Agent",
+    "original_text": "I understand your frustration sir.",
+    "language_detected": "en",
+    "translated_to_english": "I understand your frustration sir.",
+    "intent": "complaint",
+    "sentiment_score": 0.0,
+    "is_escalation_signal": true,
+    "unmet_information_need": ""
+  }
+]

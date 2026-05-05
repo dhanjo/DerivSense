@@ -1,0 +1,68 @@
+[
+  {
+    "turn_index": 0,
+    "speaker": "Pengguna",
+    "original_text": "kenapa posisi saya ditutup paksa? saya tidak setuju",
+    "language_detected": "id",
+    "translated_to_english": "why was my position forcefully closed? I do not agree",
+    "intent": "margin_dispute",
+    "sentiment_score": -0.7,
+    "is_escalation_signal": true,
+    "unmet_information_need": "explanation for forced position closure"
+  },
+  {
+    "turn_index": 1,
+    "speaker": "Agen",
+    "original_text": "Halo, posisi Anda ditutup karena margin level di bawah 50%",
+    "language_detected": "id",
+    "translated_to_english": "Hello, your position was closed because the margin level is below 50%",
+    "intent": "information_request",
+    "sentiment_score": 0.2,
+    "is_escalation_signal": false,
+    "unmet_information_need": ""
+  },
+  {
+    "turn_index": 2,
+    "speaker": "Pengguna",
+    "original_text": "tapi saya rugi 1500 USD karena ini",
+    "language_detected": "id",
+    "translated_to_english": "but I lost 1500 USD because of this",
+    "intent": "margin_dispute",
+    "sentiment_score": -0.6,
+    "is_escalation_signal": true,
+    "unmet_information_need": "compensation for the loss"
+  },
+  {
+    "turn_index": 3,
+    "speaker": "Agen",
+    "original_text": "Saya mengerti. Sistem kami otomatis menutup posisi untuk melindungi akun Anda",
+    "language_detected": "id",
+    "translated_to_english": "I understand. Our system automatically closes positions to protect your account",
+    "intent": "information_request",
+    "sentiment_score": 0.3,
+    "is_escalation_signal": false,
+    "unmet_information_need": ""
+  },
+  {
+    "turn_index": 4,
+    "speaker": "Pengguna",
+    "original_text": "lindungi? saya rugi besar! ini penipuan",
+    "language_detected": "id",
+    "translated_to_english": "protect? I have lost a lot! this is a scam",
+    "intent": "complaint",
+    "sentiment_score": -0.8,
+    "is_escalation_signal": true,
+    "unmet_information_need": "justification for loss and assurance"
+  },
+  {
+    "turn_index": 5,
+    "speaker": "Agen",
+    "original_text": "Saya mengerti perasaan Anda. Margin call dijelaskan di syarat dan ketentuan.",
+    "language_detected": "id",
+    "translated_to_english": "I understand your feelings. Margin call is explained in the terms and conditions.",
+    "intent": "information_request",
+    "sentiment_score": 0.1,
+    "is_escalation_signal": false,
+    "unmet_information_need": "details of terms and conditions"
+  }
+]

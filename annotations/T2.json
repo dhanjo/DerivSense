@@ -1,0 +1,90 @@
+[
+  {
+    "turn_index": 0,
+    "speaker": "Usuario",
+    "original_text": "Hola, llevo 3 días esperando que verifiquen mis documentos",
+    "language_detected": "es",
+    "translated_to_english": "Hello, I have been waiting for 3 days for my documents to be verified",
+    "intent": "identity_verification",
+    "sentiment_score": -0.5,
+    "is_escalation_signal": false,
+    "unmet_information_need": "verification status"
+  },
+  {
+    "turn_index": 1,
+    "speaker": "Agente",
+    "original_text": "Buenos días, ¿me puede dar su número de cuenta?",
+    "language_detected": "es",
+    "translated_to_english": "Good morning, can you give me your account number?",
+    "intent": "information_request",
+    "sentiment_score": 0.5,
+    "is_escalation_signal": false,
+    "unmet_information_need": ""
+  },
+  {
+    "turn_index": 2,
+    "speaker": "Usuario",
+    "original_text": "CR9921455",
+    "language_detected": "es",
+    "translated_to_english": "CR9921455",
+    "intent": "information_request",
+    "sentiment_score": 0.0,
+    "is_escalation_signal": false,
+    "unmet_information_need": ""
+  },
+  {
+    "turn_index": 3,
+    "speaker": "Agente",
+    "original_text": "Veo que sus documentos fueron rechazados por baja resolución",
+    "language_detected": "es",
+    "translated_to_english": "I see that your documents were rejected due to low resolution",
+    "intent": "identity_verification",
+    "sentiment_score": -0.5,
+    "is_escalation_signal": false,
+    "unmet_information_need": "reason for rejection explanation"
+  },
+  {
+    "turn_index": 4,
+    "speaker": "Usuario",
+    "original_text": "nadie me avisó!!!",
+    "language_detected": "es",
+    "translated_to_english": "nobody informed me!!!",
+    "intent": "complaint",
+    "sentiment_score": -0.8,
+    "is_escalation_signal": true,
+    "unmet_information_need": ""
+  },
+  {
+    "turn_index": 5,
+    "speaker": "Agente",
+    "original_text": "Le pido disculpas, debería haber recibido un correo",
+    "language_detected": "es",
+    "translated_to_english": "I apologize, you should have received an email",
+    "intent": "complaint",
+    "sentiment_score": 0.0,
+    "is_escalation_signal": false,
+    "unmet_information_need": ""
+  },
+  {
+    "turn_index": 6,
+    "speaker": "Usuario",
+    "original_text": "no recibí nada y necesito retirar mi dinero ya",
+    "language_detected": "es",
+    "translated_to_english": "I didn't receive anything and I need to withdraw my money now",
+    "intent": "withdrawal_issue",
+    "sentiment_score": -0.9,
+    "is_escalation_signal": true,
+    "unmet_information_need": "status of withdrawal request"
+  },
+  {
+    "turn_index": 7,
+    "speaker": "Agente",
+    "original_text": "Por favor reenvíe los documentos en mayor calidad",
+    "language_detected": "es",
+    "translated_to_english": "Please resend the documents in higher quality",
+    "intent": "identity_verification",
+    "sentiment_score": 0.5,
+    "is_escalation_signal": false,
+    "unmet_information_need": ""
+  }
+]

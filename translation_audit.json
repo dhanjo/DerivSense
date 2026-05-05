@@ -1,0 +1,37 @@
+[
+  {
+    "original_text": "Hola, llevo 3 días esperando que verifiquen mis documentos",
+    "translation_A": "Hello, I have been waiting for 3 days for them to verify my documents.",
+    "translation_B": "Hi, I've been waiting for three days for my documents to be verified.",
+    "difference": "Prompt A produced a more literal rendering; Prompt B a more natural one.",
+    "possible_impact_on_intent_sentiment_or_routing": "Literal vs contextual phrasing may cause different intent classification or sentiment scoring by downstream LLMs."
+  },
+  {
+    "original_text": "Buenos días, ¿me puede dar su número de cuenta?",
+    "translation_A": "Good morning, can you provide me with your account number?",
+    "translation_B": "Good morning, could you please provide me with your account number?",
+    "difference": "Prompt A produced a more literal rendering; Prompt B a more natural one.",
+    "possible_impact_on_intent_sentiment_or_routing": "Literal vs contextual phrasing may cause different intent classification or sentiment scoring by downstream LLMs."
+  },
+  {
+    "original_text": "CR9921455",
+    "translation_A": "CR9921455.",
+    "translation_B": "CR9921455",
+    "difference": "Prompt A produced a more literal rendering; Prompt B a more natural one.",
+    "possible_impact_on_intent_sentiment_or_routing": "Literal vs contextual phrasing may cause different intent classification or sentiment scoring by downstream LLMs."
+  },
+  {
+    "original_text": "Le pido disculpas, debería haber recibido un correo",
+    "translation_A": "I apologize, you should have received an email.",
+    "translation_B": "I apologize; you should have received an email about that.",
+    "difference": "Prompt A produced a more literal rendering; Prompt B a more natural one.",
+    "possible_impact_on_intent_sentiment_or_routing": "Literal vs contextual phrasing may cause different intent classification or sentiment scoring by downstream LLMs."
+  },
+  {
+    "original_text": "no recibí nada y necesito retirar mi dinero ya",
+    "translation_A": "I did not receive anything and I need to withdraw my money now.",
+    "translation_B": "I didn't receive anything, and I need to withdraw my money now.",
+    "difference": "Prompt A produced a more literal rendering; Prompt B a more natural one.",
+    "possible_impact_on_intent_sentiment_or_routing": "Literal vs contextual phrasing may cause different intent classification or sentiment scoring by downstream LLMs."
+  }
+]

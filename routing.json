@@ -1,0 +1,64 @@
+[
+  {
+    "transcript_id": "T1",
+    "root_cause_of_dissatisfaction": "Deposit not reflected despite deduction",
+    "recommended_route": "payments",
+    "priority": "P1",
+    "expected_resolution_path": "Payments team to investigate the transaction and ensure the deposit is credited to the user's account.",
+    "evidence_turns": [
+      0,
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "transcript_id": "T2",
+    "root_cause_of_dissatisfaction": "Document verification failure",
+    "recommended_route": "compliance",
+    "priority": "P2",
+    "expected_resolution_path": "User to resend higher quality documents for verification and expedite the process.",
+    "evidence_turns": [
+      0,
+      4,
+      6
+    ]
+  },
+  {
+    "transcript_id": "T3",
+    "root_cause_of_dissatisfaction": "Forced position closure due to margin call",
+    "recommended_route": "risk",
+    "priority": "P2",
+    "expected_resolution_path": "Clarification on margin call policies and potential appeal process for the user.",
+    "evidence_turns": [
+      0,
+      2,
+      4
+    ]
+  },
+  {
+    "transcript_id": "T4",
+    "root_cause_of_dissatisfaction": "Account frozen due to KYC issues",
+    "recommended_route": "compliance",
+    "priority": "P1",
+    "expected_resolution_path": "Find a resolution for the user's document submissions to unfreeze their account.",
+    "evidence_turns": [
+      0,
+      4,
+      6
+    ]
+  },
+  {
+    "transcript_id": "T5",
+    "root_cause_of_dissatisfaction": "Bonus not received as promised",
+    "recommended_route": "retention",
+    "priority": "P3",
+    "expected_resolution_path": "Confirm eligibility for the bonus and communicate conditions better to prevent future dissatisfaction.",
+    "evidence_turns": [
+      0,
+      2,
+      4,
+      5
+    ]
+  }
+]

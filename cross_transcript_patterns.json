@@ -1,0 +1,38 @@
+[
+  {
+    "pattern": "Customers express frustration over delays in processing deposits.",
+    "evidence_transcript_ids": [
+      "T1",
+      "T5"
+    ],
+    "supporting_turns": [
+      "T1:4",
+      "T5:2"
+    ],
+    "product_or_process_recommendation": "Improve deposit processing times and provide regular updates to customers during the waiting period."
+  },
+  {
+    "pattern": "Customers express dissatisfaction when they are not informed of document rejection.",
+    "evidence_transcript_ids": [
+      "T2",
+      "T4"
+    ],
+    "supporting_turns": [
+      "T2:4",
+      "T4:4"
+    ],
+    "product_or_process_recommendation": "Implement a notification system to inform customers promptly when documents are rejected or require resubmission."
+  },
+  {
+    "pattern": "Customers experience confusion or dissatisfaction regarding account access issues.",
+    "evidence_transcript_ids": [
+      "T3",
+      "T4"
+    ],
+    "supporting_turns": [
+      "T3:4",
+      "T4:0"
+    ],
+    "product_or_process_recommendation": "Enhance clarity in communication regarding account access policies and provide proactive support to affected customers."
+  }
+]
